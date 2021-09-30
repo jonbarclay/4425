@@ -1,4 +1,4 @@
-#!/Python/python.exe
+#!C:/Python39/python.exe
 import cgi
 import cgitb
 import sqlite3
