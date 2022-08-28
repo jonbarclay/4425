@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-28T17:10:21.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="8s1hZE0ip5nJKjKocK8E" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-28T17:13:12.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="knJ72zKrflkja_jf4Etc" version="20.2.7" type="github">
   <diagram id="M14Bi0SPeSwC654nAqJp" name="Page-1">
     <mxGraphModel dx="1306" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -101,6 +101,12 @@
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-36" value="Sensitive DMZ Option (Banner, IAM, etc)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="840" y="5" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JBE3XxUc7-_DPygx-jZd-50" value="" style="endArrow=classic;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JBE3XxUc7-_DPygx-jZd-5" target="JBE3XxUc7-_DPygx-jZd-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="670" as="sourcePoint" />
+            <mxPoint x="240" y="620" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
