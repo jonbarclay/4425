@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-28T17:13:12.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="knJ72zKrflkja_jf4Etc" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-29T15:14:12.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_RQZwnxGA6Uu1wVlYEvJ" version="20.2.7" type="github">
   <diagram id="M14Bi0SPeSwC654nAqJp" name="Page-1">
-    <mxGraphModel dx="1306" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="876" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,36 +11,36 @@
           <mxGeometry x="120" y="100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-4" value="Option 2 -&lt;br&gt;Client source addresses will be nated to app gateway&#39;s private address&lt;br&gt;&lt;br&gt;User Defined Route to FW for UVU systems and other VMs / VNets in azure for outbound&lt;br&gt;&lt;br&gt;Can build Private endpoints for azure systems like storage, cosmos DB, etc." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="320" y="190" width="220" height="220" as="geometry" />
+          <mxGeometry x="450" y="190" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-5" value="App Gateway&lt;br&gt;Source nat" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="390" y="100" width="80" height="80" as="geometry" />
+          <mxGeometry x="520" y="100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-6" value="nginx ingress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="190" width="80" height="30" as="geometry" />
+          <mxGeometry x="520" y="190" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-7" value="Public / app gateway ingress" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="50" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-8" value="Public / app gateway to ingress" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="325" y="50" width="190" height="30" as="geometry" />
+          <mxGeometry x="455" y="50" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-10" value="FW" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="470" width="40" height="40" as="geometry" />
+          <mxGeometry x="540" y="470" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JBE3XxUc7-_DPygx-jZd-4" target="JBE3XxUc7-_DPygx-jZd-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="500" as="sourcePoint" />
-            <mxPoint x="240" y="450" as="targetPoint" />
+            <mxPoint x="320" y="500" as="sourcePoint" />
+            <mxPoint x="370" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-12" value="UVU Campus" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="390" y="570" width="80" height="80" as="geometry" />
+          <mxGeometry x="520" y="570" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="JBE3XxUc7-_DPygx-jZd-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="510" as="sourcePoint" />
-            <mxPoint x="250" y="560" as="targetPoint" />
+            <mxPoint x="560" y="510" as="sourcePoint" />
+            <mxPoint x="380" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-14" value="Option 3 -&lt;br&gt;Client source addresses will be visible&lt;br&gt;&lt;br&gt;User Defined Route to FW all outbound communication&lt;br&gt;&lt;br&gt;Can build Private endpoints for azure systems like storage, cosmos DB, etc." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -72,7 +72,9 @@
             <mxPoint x="830" y="620" as="sourcePoint" />
             <mxPoint x="880" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="800" y="270" />
+              <mxPoint x="840" y="280" />
+              <mxPoint x="830" y="310" />
+              <mxPoint x="820" y="370" />
               <mxPoint x="810" y="470" />
               <mxPoint x="850" y="560" />
             </Array>
@@ -97,15 +99,15 @@
           <mxGeometry x="110" y="5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-35" value="Public Option 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="5" width="100" height="30" as="geometry" />
+          <mxGeometry x="510" y="5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-36" value="Sensitive DMZ Option (Banner, IAM, etc)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="840" y="5" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JBE3XxUc7-_DPygx-jZd-50" value="" style="endArrow=classic;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JBE3XxUc7-_DPygx-jZd-5" target="JBE3XxUc7-_DPygx-jZd-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="670" as="sourcePoint" />
-            <mxPoint x="240" y="620" as="targetPoint" />
+            <mxPoint x="320" y="670" as="sourcePoint" />
+            <mxPoint x="370" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
