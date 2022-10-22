@@ -16,15 +16,15 @@ colon = ":".encode('utf-8')
 qop = "auth".encode('utf-8')
 
 
-cnonce = "6bc37926abce6649".encode('utf-8')
+cnonce = "e185c54236ba047b".encode('utf-8')
 
 
-nonce = "cPmikbouBQA=92809400a6834c1fbc7b098b91e0fe759da84dcd".encode('utf-8')
+nonce = "7zD5AKLrBQA=f4e09d16400b6b9931f2a99f3742813eac14a918".encode('utf-8')
 
 
 nc = "00000001".encode('utf-8')
 
-response = "19c247a1cb6718b06f986ff2be144837"
+response = "13d646ff24a73a157d0e6a3675bab724"
 
 
 
